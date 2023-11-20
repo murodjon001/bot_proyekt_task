@@ -2,7 +2,7 @@ import psycopg2
 
 def send_ex(command):
     mydb = psycopg2.connect(user="postgres",
-                            password="06102000murodjon",
+                            password="*******",
                             host="localhost",
                             port="5432",
                             database="backend group")
